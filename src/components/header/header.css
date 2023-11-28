@@ -159,12 +159,5 @@
   }
   .mobileHeaderMenu {
     display: flex;
-    border-bottom: 0.1px solid rgb(41, 41, 41);
-  }
-}
-
-@media (max-width: 360px) {
-.mobileHeaderMenu {
-    border-bottom: none;
   }
 }

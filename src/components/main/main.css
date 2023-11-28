@@ -202,6 +202,8 @@
   }
   .mobileMainMenu {
     display: block;
+    background: url("../../assets/bg.svg");
+    background-size: 100%;
   }
 }
 @media (max-width: 360px) {
@@ -212,16 +214,8 @@
     width: calc(100% - 14px);
     display: block;
     padding-left: 14px;
-    background: url("../../assets/bg.svg");
-    background-size: 100%;
-
   }
   .mobileMainTitle1 {
     margin-bottom: 0;
-  }
-}
-@media (max-width: 320px) {
-  .mobileMainMenu {
-    
   }
 }
