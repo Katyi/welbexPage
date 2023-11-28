@@ -6,6 +6,7 @@ import icon2 from '../../assets/viber.svg';
 import icon3 from '../../assets/whatsapp.svg';
 import bgImg1 from '../../assets/purpleBall.svg';
 import bgImg2 from '../../assets/redBigBall.svg';
+import bgImg4 from '../../assets/purpleLight.svg';
 
 const Header = () => {
   return (
@@ -16,6 +17,9 @@ const Header = () => {
         </div>
         <div className='appImgWrapper2'>
           <img className='appImg2' src={bgImg2} alt="" />
+        </div>
+        <div className='appImgWrapper4'>
+          <img className='appImg4' src={bgImg4} alt="" />
         </div>
         
         {/* LOGO PART */}

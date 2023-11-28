@@ -23,6 +23,13 @@
   top: calc(37px + 46px);
   margin: 0;
 }
+.appImgWrapper4 {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  max-width: 1140px;
+  top: 0;
+}
 .appImg1 {
   width: 60px;
   height: 60px;
@@ -34,6 +41,12 @@
   height: 83px;
   flex-shrink: 0;
   margin-left: calc(369 / 1140 * 100%);
+}
+.appImg4 {
+  width: 259px;
+  height: 259px;
+  flex-shrink: 0;
+  margin-left: calc(452 / 1140 * 100%);
 }
 
 /* HEADER */

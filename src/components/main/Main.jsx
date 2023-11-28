@@ -14,6 +14,7 @@ const Main = () => {
           <img className='appImg3' src={bgImg3} alt="bgImg3" />
         </div>
         
+        
         {/* LEFT PART */}
         <div className="mainLeftPart">
           <div className='mainTitle1'>Зарабатывайте больше</div>
