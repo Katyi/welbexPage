@@ -1,8 +1,7 @@
-# React + Vite
+# Тестовое задание компании amoCRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Задание
 
-Currently, two official plugins are available:
+Сверстать страницу по макету.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://www.figma.com/file/XCumqL9ZTG2h2BXpSbhaAG/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-Front-end-%D0%9D%D0%BE%D1%8F%D0%B1%D1%80%D1%8C'23?type=design&mode=design&t=Ic40eggB49uUNtfq-1
