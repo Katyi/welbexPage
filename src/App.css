@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: var(--black, #0E1014);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.appContainer {
+  max-width: 1440px;
+  width: 100vw;
+  height: 100vh;
+  /* display: block; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin: 0 auto;
+  
+}
+
+/* @media (max-width: 1440px) {
+  .appContainer {
+    padding: 0 20px;
+  }
+} */

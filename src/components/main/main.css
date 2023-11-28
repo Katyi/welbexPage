@@ -1,0 +1,227 @@
+/* ------------------------- DESKTOP PART ---------------------------------- */
+.mainContainer {
+  width: 100%;
+  max-width: 1140px;
+  height: calc(546px - 90px);
+  display: flex;
+  padding-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.appImgWrapper3 {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  max-width: 1140px;
+  top: calc(428px + 73px + 46px);
+}
+.appImg3 {
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+  margin-left: calc(702 / 1140 *100%);
+}
+.mainLeftPart {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.mainRightPart {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 15px;
+}
+.mainTitle1 {
+  color: #E4E5EA;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 362px;
+  height: 116px;
+  word-wrap: break-word;
+}
+.mainTitle2 {
+  color: var(--light-text, #E4E5EA);
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.mainText1 {
+  color: var(--light-text, #E4E5EA);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 270px;
+  word-wrap: break-word;
+  margin-top: 30px;
+}
+.mainText2 {
+  color: #E4E5EA;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 40px;
+  width: 135px;
+  word-wrap: break-word;
+}
+.cardPart {
+  margin-top: 40px;
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 50%;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.mainButton {
+  margin-top: 31px;
+  width: 262px;
+  height: 61px;
+  flex-shrink: 0;
+  background: #4077F3;
+  color: var(--light-text, #E4E5EA);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+/* ------------------------- MOBILE PART ---------------------------------- */
+.mobileMainMenu {
+  width: 85%;
+  height: calc(441px - 40px);
+  padding-top: 40px;
+  padding-left: 15%;
+  display: none;
+  
+  z-index: -1;
+}
+.mobileMainTitle1 {
+  color: var(--light-text, #E4E5EA);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+  width: 272px;
+  word-wrap: break-word;
+}
+.mobileMainText1 {
+  margin-top: 15px;
+  margin-bottom: 45px;
+  color: var(--light-text, #E4E5EA);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 271px;
+  height: 44px;
+  word-wrap: break-word;
+}
+.mobileCardPart {
+  margin-top: 20px;
+  width: calc(114px + 146px + 10px);
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+.mobileCard {
+  height: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mobileCard:nth-child(1) {
+  width: 124px;
+  margin-bottom: 14px;
+}
+.mobileCard:nth-child(2) {
+  width: 141px;
+}
+.mobileCard:nth-child(3) {
+  width: 124px;
+}
+.mobileCard:nth-child(4) {
+  width: 146px;
+}
+.line {
+  width: 10px;
+  height: 1px;
+}
+.mobileMainText2 {
+  color: var(--light-text, #E4E5EA);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .mainLeftPart {
+    padding-left: 5%;
+    width: 45%;
+  }
+  .mainRightPart {
+    padding-right: 5%;
+    width: 45%;
+  }
+  .mobileMainMenu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    display: none;
+  }
+  .mobileMainMenu {
+    display: block;
+  }
+}
+@media (max-width: 360px) {
+  .mainContainer {
+    display: none;
+  }
+  .mobileMainMenu {
+    width: calc(100% - 14px);
+    display: block;
+    padding-left: 14px;
+    background: url("../../assets/bg.svg");
+    background-size: 100%;
+
+  }
+  .mobileMainTitle1 {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  .mobileMainMenu {
+    
+  }
+}
